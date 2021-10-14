@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-  color: #000000;
+  color: blue;
   font-weight: bold;
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
@@ -55,7 +55,7 @@ header {
 nav {
   width: 80%;
   padding: 1em;
-  font-family: /*Verdana, Geneva, sans-serif;*/'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 nav ul {
@@ -94,7 +94,7 @@ Main > div {
   margin: 0.5rem;
   height: auto;
   float: left;
- /* width: 65%;*/
+ 
 }
 Main > aside {
   /*border: 2px greenyellow;*/
@@ -102,8 +102,8 @@ Main > aside {
   margin: 0.5rem;
   height: auto;
   float: left;
-  /*max-width: 30%;*/
 }
+
 Main {
   display: grid;
   width: auto;
@@ -112,7 +112,6 @@ Main {
   height: auto;
   overflow: auto;
 }
-
 @media all and (max-width: 500px) {
   Main {
     grid: none;
@@ -157,21 +156,16 @@ Main2 > div {
   margin: 0.5rem;
   height: auto;
   float: left;
- /* width: 65%;*/
+ 
 }
 
 
-.seccion1 {
-  /*border: 2px green solid;*/
-  min-height: 50px;
+Section {
+min-height: 50px;
   margin: 0.5rem;
 }
 
-.seccion2 {
-  /*border: 2px green solid;*/
-  /*min-height: 50px;*/
-  margin: 0.5rem;
-}
+
 
 a:hover {
   background: yellow;
@@ -182,18 +176,12 @@ a:hover {
   padding: 25px;
   width: 100%;
   margin-top: 0;
-  background:/* #000000;*/ white;
-  transition-property: margin-top;
-  transition-duration: 0.5s;
-}
-
-.gif-1 {
-  width: 100%;
-  padding: 50px;
   background: white;
   transition-property: margin-top;
   transition-duration: 0.5s;
 }
+
+
 
 .contacto {
   border: 1px solid #ced5d7;
@@ -226,13 +214,13 @@ form {
 
 .container {
   display: flex;
-  flex:  2fr 1fr;
+  overflow: auto;
+  flex:  1fr 1fr;
   justify-content: space-around;
   flex-direction:row;
   align-items: center;
   background-color:whitesmoke;
-  height: /*12rem*/auto;
-  overflow: auto;
+  height: auto;
   color:blue;
   font-size: 14px;
   font-family: 'Times New Roman', Times, serif;
@@ -244,8 +232,8 @@ form {
 
 
 @media all  and (max-width: 500px) {
-  container {
-    grid: none;
+  section5 {
+    flex:none;
   }
 }
 
