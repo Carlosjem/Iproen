@@ -173,11 +173,17 @@ a:hover {
   background: white;
   transition-property: margin-top;
   transition-duration: 0.5s;
+ }
+
+#gif-ppal:hover {
+  background-color: blue;
 }
 
 
+ 
 
-.contacto {
+
+ .contacto {
   border: 1px solid #ced5d7;
   border-radius: 6px;
   padding: 45px 45px 20px;
