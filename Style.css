@@ -63,11 +63,11 @@ nav ul {
   list-style:none;
   padding: 10;
   margin: 10;
-  background:blue;
+  background:whitesmoke;
 }
 
 nav li a {
-  color: white;
+  color:blue;
   display: inline-grid;
   text-decoration: none;
   padding: 0.3em 0.3em;
@@ -223,7 +223,7 @@ form {
   background-color:whitesmoke;
   height: auto;
   color:blue;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
   grid-gap: 10px;
   padding: 5%;
