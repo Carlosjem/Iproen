@@ -48,22 +48,22 @@ header {
   border: 2px outset;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items:center;
   max-height: 100px;
 }
 
 nav {
-  width: 80%;
+  width: 90%;
   padding: 1em;
   font-family: 'Times New Roman', Times, serif;
 }
 
 nav ul {
   text-align: right;
-  list-style: none;
+  list-style:none;
   padding: 10;
   margin: 10;
-  background: blue;
+  background:blue;
 }
 
 nav li a {
@@ -79,7 +79,8 @@ nav li a:hover {
 }
 
 .header-logo {
-  width: 100%;
+  width: 80px;
+  height: auto;
 }
 
 Main {
