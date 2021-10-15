@@ -11,7 +11,7 @@ html {
 h1 {
   color: blue;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
   text-align: center;
@@ -24,15 +24,7 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-p1 {
-  color: black;
-  background-color: white;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-}
+
 
 body,
 header,
@@ -100,7 +92,8 @@ Main > div {
 Main > aside {
   /*border: 2px greenyellow;*/
   min-height: 10px;
-  margin: 0.5rem;
+  margin: 0.5rem ;
+  padding-top: 10rem;
   height: auto;
   float: left;
 }
@@ -196,6 +189,7 @@ a:hover {
 .contacto label {
   display: block; /* esto es para que el label se sobreponga a la caja de texto */
   font-weight: bold;
+  font-size: small;
 }
 
 .contacto div {
