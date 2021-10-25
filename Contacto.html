@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width" initial-scale=1.0>
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="bootstrap.min.css">-->
     <script src="form-validation.js"></script>
 
 </head>
@@ -26,12 +27,13 @@
         <Main2>
             <h1>Registre sus datos y pronto sera atendido</h1><Br>
             <section >
+                <link rel="stylesheet" href="bootstrap.min.css">
                     <form action="/login.php" id="formulario" class="contacto"  method ="post"  >
                         <div><label>Nombre:</label><input type='text' name="usuario" id="usuario" style='width:50%'></div>
                         <div><label>Email:</label><input type='email' name="email" id="email" style='width:50%'></div>
                         <div><label>Asunto:</label><input type='text' name="asunto" id="asunto" style='width:50%'></div>
                         <div><label>Mensaje:</label><textarea  name="mensaje" id="mensaje" rows='12'style='width:75%'></textarea></div>
-                        <div><input type='submit' value='Entrar'></div>
+                        <div><button type='submit' class='btn btn-primary'>Registrese</button>
                     </form>
                 </section>
                 
