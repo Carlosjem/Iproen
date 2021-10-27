@@ -28,7 +28,6 @@ p {
 
 
 body,
-header,
 main,
 footer {
   /*border: 3px red solid;*/
@@ -37,12 +36,21 @@ footer {
   min-width: 400px;
 }
 
+
+
+
 header {
-  border: 2px outset;
+  /*border: 1px outset;*/
   display: flex;
   flex-direction: row;
   align-items:center;
   max-height: 100px;
+  background-color:white;
+  position: fixed;
+  margin-top: 0rem;
+  top: 0;
+  left:0;
+  right:0;
 }
 
 nav {
@@ -66,10 +74,12 @@ nav li a {
   padding: 0.3em 0.3em;
 }
 
+
 nav li a:hover {
   background: lightblue;
   color: white;
 }
+
 
 .header-logo {
   width: 160px;
@@ -80,6 +90,7 @@ Main {
   min-height: 200px;
   height: 800px;
   overflow: auto;
+ 
 }
 
 Main > div {
@@ -151,7 +162,6 @@ Main2 > div {
   margin: 0.5rem;
   height: auto;
   float: left;
- 
 }
 
 
@@ -180,11 +190,7 @@ a:hover {
   background-color: blue;
 }
 
-
- 
-
-
- .contacto {
+.contacto {
   border: 1px solid #ced5d7;
   border-radius: 6px;
   padding: 45px 45px 20px;
